@@ -68,6 +68,10 @@ main {
   color: white;
 }
 
+.my-education a {
+  color: white;
+}
+
 .education li {
   list-style-type: none;
 }
@@ -79,7 +83,7 @@ main {
   margin-bottom: 30px;
 }
 
-.languages li{
+.languages li {
   list-style-type: none;
 }
 
@@ -87,6 +91,10 @@ main {
   width: 300px;
   margin-bottom: 30px;
   font-size: 18px;
+  color: white;
+}
+
+.my-contacts a {
   color: white;
 }
 
