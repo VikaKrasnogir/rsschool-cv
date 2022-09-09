@@ -32,3 +32,136 @@ nav {
 .navigation li a:hover {
   color: rgb(215, 215, 66);
 }
+
+/* ----------------------------------------------------------------------- */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(39, 39, 33);
+  width: 400px;
+}
+
+.my-photo {
+  display: flex;
+  width: 400px;
+}
+
+.image {
+  width: 400px;
+}
+
+.my-education {
+  width: 300px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.education li {
+  list-style-type: none;
+}
+
+.line_1 {
+  border-bottom: 3px solid rgb(215, 215, 66);
+  margin-left: 50px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.languages li{
+  list-style-type: none;
+}
+
+.my-contacts {
+  width: 300px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.contacts li {
+  list-style-type: none;
+}
+
+.contacts li a {
+  color: white;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.container-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.about-me {
+  display: flex;
+  width: 600px;
+  background-color: rgb(215, 215, 66);
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.my-name {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding-left: 30px;
+}
+
+.text-about-me {
+  width: 500px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.line {
+  border-bottom: 3px solid black;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.my-experience {
+  width: 250px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.line_2 {
+  border-bottom: 3px solid black;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.my-skills {
+  width: 250px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.my-code-example {
+  width: 500px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
