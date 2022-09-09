@@ -1,5 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
 .navigation {
-  border: solid 2px rgb(137, 83, 137);
   text-align: center;
 }
 
@@ -10,9 +27,8 @@
 
 .navigation li a {
   font-size: 22px;
-  color: black;
 }
 
 .navigation li a:hover {
-  color: yellowgreen;
+  color: rgb(215, 215, 66);
 }
